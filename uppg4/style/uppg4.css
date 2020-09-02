@@ -1,0 +1,52 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #000000;
+    color: #ffffff;
+    display: grid;
+    grid-template-columns: 50% auto;
+    grid-template-rows: 50% auto;
+}
+
+h1 {
+    font-size: 22px;
+}
+
+main {
+    grid-column: 1 / span 2;
+    grid-row: 1;
+}
+
+.om-mig {
+    border: gray solid 2px;
+    padding: 0 15px;
+}
+
+.program {
+    text-align: center;
+    background-color: #0f0f6a;
+    color: #e1e16f;
+    padding: 5px 25px 5px 15px;
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.tankar {
+    text-align: right;
+}
+
+aside {
+    grid-column: 2;
+    grid-row: 2;
+}
+
+a {
+    text-decoration: none;
+    color: #e1e1af;
+}
+
+img {
+    width: 100%;
+}
