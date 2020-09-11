@@ -1,0 +1,94 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Tabell 1 */
+
+
+.tbl1 {
+    border-collapse: collapse;
+    border: 1px solid rgb(0, 0, 0);
+    caption-side: bottom;
+}
+
+.tbl1 thead {
+    background-color: rgb(19, 160, 255);
+}
+
+.tbl1 th, td {
+    width: 150px;
+    height: 20px;
+    padding: 5px;
+}
+
+.tbl1 th {
+    border: 1px solid rgb(0, 0, 0);
+}
+
+.tbl1 th:nth-child(1) {
+    text-align: left;
+}
+
+.tbl1 tbody>tr:nth-child(odd) {
+    background-color: rgb(255, 189, 189);
+}
+
+.tbl1 tbody>tr:nth-child(even) {
+    background-color: rgb(189, 229, 255);
+}
+
+.tbl1 td {
+    border: 1px solid rgb(0, 0, 0);
+}
+
+.tbl1 td:nth-child(2), td:nth-child(3) {
+    text-align: center;
+}
+
+.tbl1 th:nth-child(4), td:nth-child(4) {
+    text-align: right;
+}
+
+
+
+/* Tabell 2 */
+
+/* .tbl2 td {
+    column-span: 2;
+} */
+
+.tbl2 {
+    border-collapse: collapse;
+    caption-side: bottom;
+}
+
+.tbl2 td {
+    border: 1px solid rgb(0, 0, 0);
+    height: 100px;
+    width: 100px;
+}
+
+/* Rad 1 */
+.tbl2 tr:nth-child(1)>td:nth-child(1){
+    background-color: rgb(0, 0, 255);
+}
+
+.tbl2 tr:nth-child(1)>td:nth-child(2){
+    background-color: rgb(255, 0, 0);
+}
+
+
+/* Rad 2 */
+.tbl2 tr:nth-child(2)>td:nth-child(1){
+    background-color: rgb(255, 255, 0);
+}
+
+.tbl2 tr:nth-child(2)>td:nth-child(2){
+    background-color: rgb(0, 0, 0);
+}
+
+
+/* Rad 3 */
+.tbl2 tr:nth-child(3)>td{
+    background-color: rgb(0, 255, 0);
+}
