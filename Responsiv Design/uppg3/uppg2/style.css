@@ -1,0 +1,28 @@
+html, body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body>div {
+    padding: 1em;
+    margin: 0 auto;
+    max-width: 960px;
+    /* display: flex;
+    justify-content: space-evenly; */
+    border: black 1px solid;
+}
+
+div>div {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+div img {
+    box-sizing: border-box;
+    height: auto;
+    width: 50%;
+    /* display: inline-block; */
+}
+
+div img:last-of-type {
+    padding-left: 1em;
+}
