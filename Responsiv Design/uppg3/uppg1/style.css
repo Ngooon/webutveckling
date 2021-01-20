@@ -1,0 +1,22 @@
+html, body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+    list-style: none;
+    padding: 1em;
+    margin: 0 auto;
+    max-width: 960px;
+    display: flex;
+    justify-content: space-evenly;
+    border: black 1px solid;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    text-decoration: underline;
+}
